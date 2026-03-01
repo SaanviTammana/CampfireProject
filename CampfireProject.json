@@ -286,6 +286,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Korean/088dd9d7e751fe70af00d41cd19ea388f5955f643f16ad3371b9c7b6f37a8aa8_NotoSansKR-Black.otf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -384,6 +392,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/rectanglemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
     }
   ],
   "externalLayouts": []
