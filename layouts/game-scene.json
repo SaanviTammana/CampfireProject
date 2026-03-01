@@ -2428,7 +2428,7 @@
           "parameters": [
             "score",
             ">=",
-            "12"
+            "10"
           ]
         }
       ],
@@ -2458,6 +2458,33 @@
             "=",
             "0",
             ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"game over\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "Player",
+            ">",
+            "2000"
           ]
         }
       ],

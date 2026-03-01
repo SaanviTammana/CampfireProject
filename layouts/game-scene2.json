@@ -2136,6 +2136,33 @@
       "conditions": [
         {
           "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "Player",
+            ">",
+            "2000"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"game over\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "Health::Health::Health"
           },
           "parameters": [
