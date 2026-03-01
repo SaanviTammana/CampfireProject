@@ -292,7 +292,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite11",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
