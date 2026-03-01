@@ -413,6 +413,22 @@
         "name": "NewSprite19",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "istockphoto-1307986275-612x613.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "istockphoto-1307986275-612x613.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "istockphoto-1447471637-640x640.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "istockphoto-1447471637-640x640.jpg",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -512,6 +528,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-over"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/win"
     }
   ],
   "externalEvents": [
