@@ -36,41 +36,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "MobileControls",
-      "locked": true,
-      "name": "MoveJoystick",
-      "persistentUuid": "855d809a-f954-4072-86d5-1d6f0b24a066",
-      "width": 0,
-      "x": 176,
-      "y": 576,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 120,
-      "keepRatio": true,
-      "layer": "MobileControls",
-      "locked": true,
-      "name": "JumpButton",
-      "persistentUuid": "b1d437ce-f3b4-4799-875e-bb51f731cef0",
-      "width": 120,
-      "x": 1104,
-      "y": 576,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 205,
@@ -345,14 +310,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 119,
+      "height": 61,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
       "persistentUuid": "4bc652d3-ae69-43d1-a5db-c09bf5f67a12",
-      "width": 144,
-      "x": 779,
-      "y": 285,
+      "width": 69,
+      "x": 822,
+      "y": 353,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -388,6 +353,618 @@
       "x": 1005,
       "y": 322,
       "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 130,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite4",
+      "persistentUuid": "e29af998-cf24-44d2-a66e-402985052666",
+      "width": 242,
+      "x": 16,
+      "y": -3,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "63206268-f995-452e-a273-3c702b6e3009",
+      "width": 205,
+      "x": 1081,
+      "y": 223,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "edf26a1b-9520-4564-8828-e23dd06e6166",
+      "width": 205,
+      "x": 1198,
+      "y": 140,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "985b31d9-8c00-4e36-827a-b7b5af9cfe6f",
+      "width": 205,
+      "x": 1292,
+      "y": 224,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "2eb58c87-9752-4d3b-8460-46c9d66f8074",
+      "width": 205,
+      "x": 1176,
+      "y": 333,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "a05eb9f3-72f6-4d1a-80f1-37d03557a86a",
+      "width": 205,
+      "x": 1455,
+      "y": 245,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "33a7d924-d7a1-4940-b121-8c800e0e0b03",
+      "width": 205,
+      "x": 1509,
+      "y": 245,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "e962f55b-c6b8-4a7f-80a1-1fb2564c7176",
+      "width": 205,
+      "x": 1556,
+      "y": 246,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 105,
+      "keepRatio": true,
+      "layer": "",
+      "name": "oyster",
+      "persistentUuid": "1b70e690-4f51-425e-a877-f28f32b0f5f9",
+      "width": 95,
+      "x": 1141,
+      "y": 221,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 105,
+      "keepRatio": true,
+      "layer": "",
+      "name": "oyster",
+      "persistentUuid": "244145ab-6171-4650-a3a4-816ad54decd1",
+      "width": 95,
+      "x": 1258,
+      "y": 139,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 105,
+      "keepRatio": true,
+      "layer": "",
+      "name": "oyster",
+      "persistentUuid": "7ad6f860-5d42-4412-afcc-4e929010fa2b",
+      "width": 95,
+      "x": -47.5,
+      "y": -52.5,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 105,
+      "keepRatio": true,
+      "layer": "",
+      "name": "oyster",
+      "persistentUuid": "aa0af59f-3e1b-4eee-9bfc-6b7601cf0460",
+      "width": 95,
+      "x": 1353,
+      "y": 210,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 105,
+      "keepRatio": true,
+      "layer": "",
+      "name": "oyster",
+      "persistentUuid": "97dc11f8-7905-4645-b32e-d4b6d54c7a1d",
+      "width": 95,
+      "x": 1235,
+      "y": 323,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 105,
+      "keepRatio": true,
+      "layer": "",
+      "name": "oyster",
+      "persistentUuid": "3b7d0458-fd69-42cf-ba8a-3767292c3622",
+      "width": 95,
+      "x": 1533,
+      "y": 221,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "b36d22b1-3c87-40ea-b7e2-8afac55d65fb",
+      "width": 205,
+      "x": 1638,
+      "y": 157,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "1565af44-ef0a-4dfa-9da5-54616d826061",
+      "width": 205,
+      "x": 1777,
+      "y": 220,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "43e21d02-57f9-48c4-88d9-2a855bfcd0af",
+      "width": 205,
+      "x": 1900,
+      "y": 152,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "f5667469-3957-4f05-82b8-726c40af3f1c",
+      "width": 205,
+      "x": 2008,
+      "y": 72,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "0052f2c2-cb92-4ba6-9f67-ca508cca0156",
+      "width": 205,
+      "x": 2104,
+      "y": 159,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "5394d6e0-a1e9-4c14-87f9-67efdb1a08c4",
+      "width": 205,
+      "x": 2153,
+      "y": 160,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "0031359b-b3a7-45cf-b9da-3598106eda69",
+      "width": 205,
+      "x": 2209,
+      "y": 160,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "96ded8e0-5950-4fa1-8a78-8d7beba3a400",
+      "width": 205,
+      "x": 2266,
+      "y": 159,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "d8133f7d-99fa-4260-a5d5-117645eedd94",
+      "width": 205,
+      "x": 2321,
+      "y": 160,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "5c7c44c1-9cb9-4ffc-a443-2ac9a8942257",
+      "width": 205,
+      "x": 2369,
+      "y": 160,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "6ff20e72-9fae-471c-b68a-89b1b6b0bb04",
+      "width": 205,
+      "x": 2421,
+      "y": 160,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 39,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "9d037ef3-9b56-4c6b-a0c1-262e98e4ff73",
+      "width": 38,
+      "x": 2180,
+      "y": 199,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 39,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "8002db2e-cd48-4855-8818-f295b0c7e37b",
+      "width": 38,
+      "x": 2369,
+      "y": 200,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "b05760c8-6787-4958-a15d-85c9834a1e9f",
+      "width": 42,
+      "x": 2327,
+      "y": 197,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "8567d2df-cde8-45ac-8fdb-6737cb3e6470",
+      "width": 42,
+      "x": 2517,
+      "y": 201,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 61,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "a1dc070f-b852-4463-9bc8-428c6dae79a0",
+      "width": 69,
+      "x": -34.5,
+      "y": -30.5,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 61,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "64a39dca-7190-4801-b7e9-131d1ee0edc8",
+      "width": 69,
+      "x": -34.5,
+      "y": -30.5,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 61,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "125fa356-05c7-49b5-9d80-0ecaf27c5d36",
+      "width": 69,
+      "x": -34.5,
+      "y": -30.5,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 61,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "09c1a91e-d28c-41cc-bbeb-80a5de4cd55d",
+      "width": 69,
+      "x": 2226,
+      "y": 182,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 61,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "0e5b907f-7dcb-4f84-acf1-86f8a3cdbc8c",
+      "width": 69,
+      "x": -34.5,
+      "y": -30.5,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 61,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "fa2ac8f1-4c71-4982-b52b-29bc688eca33",
+      "width": 69,
+      "x": 2426,
+      "y": 190,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "e0534eb5-4ef7-4441-b8d3-4c51d2f064b7",
+      "width": 205,
+      "x": 2533,
+      "y": 238,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -454,187 +1031,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "9c727020616afdd6ba786b8af206a90481f07db0ca175ed6a4cc5b7e01c66d06",
-      "name": "JumpButton",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        },
-        {
-          "name": "ButtonScaleTween",
-          "type": "ButtonStates::ButtonScaleTween",
-          "Scale": "Scale",
-          "ButtonFSM": "ButtonFSM",
-          "Tween": "Tween",
-          "IdleScale": 1.5,
-          "FocusedScale": 1.45,
-          "FadeInDuration": 0.05,
-          "FadeOutDuration": 0.1,
-          "PressedScale": 1.45,
-          "FadeInEasing": "easeInOutQuad",
-          "FadeOutEasing": "easeInOutQuad",
-          "PreviousState": "Idle"
-        },
-        {
-          "name": "MultitouchButton",
-          "type": "SpriteMultitouchJoystick::MultitouchButton",
-          "ControllerIdentifier": 1,
-          "ButtonIdentifier": "A",
-          "TouchId": 0,
-          "TouchIndex": 2.0247e-320,
-          "IsReleased": false
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Top arrow button.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 40,
-                    "y": 40
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 80,
-                        "y": 0
-                      },
-                      {
-                        "x": 80,
-                        "y": 80
-                      },
-                      {
-                        "x": 0,
-                        "y": 80
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "e71bd69f896d6c7531b48c65ceb5da25071d4fbdeb518aeceecba8d21f34ed8d",
-      "name": "MoveJoystick",
-      "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
-      "variant": "",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {},
-      "childrenContent": {
-        "Border": {
-          "adaptCollisionMaskAutomatically": false,
-          "updateIfNotVisible": false,
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Flat dark joystick border.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "Thumb": {
-          "adaptCollisionMaskAutomatically": false,
-          "updateIfNotVisible": false,
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Flat dark joystick thumb.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      }
     },
     {
       "adaptCollisionMaskAutomatically": false,
@@ -714,6 +1110,34 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 100,
+          "CurrentHealth": 0,
+          "MaxHealth": 100,
+          "DamageCooldown": 0,
+          "AllowOverHealing": false,
+          "IsHealthJustDamaged": false,
+          "DamageToBeApplied": 0,
+          "HitAtLeastOnce": false,
+          "ChanceToDodge": 0,
+          "IsJustDodged": false,
+          "HealToBeApplied": 0,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 2.0247e-320,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ShieldDamageTaken": 2.0247e-320,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0
+        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -970,6 +1394,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 29
+                      },
+                      {
+                        "x": 63,
+                        "y": 29
+                      },
+                      {
+                        "x": 63,
+                        "y": 40
+                      },
+                      {
+                        "x": 1,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -979,21 +1464,16 @@
         "objectName": "oyster"
       },
       {
-        "folderName": "Mobile Controls",
-        "children": [
-          {
-            "objectName": "MoveJoystick"
-          },
-          {
-            "objectName": "JumpButton"
-          }
-        ]
+        "folderName": "Mobile Controls"
       },
       {
         "objectName": "platform"
       },
       {
         "objectName": "Player"
+      },
+      {
+        "objectName": "NewSprite4"
       },
       {
         "objectName": "NewSprite"
@@ -1188,6 +1668,145 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "NewSprite",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsFalling"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "NewSprite",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsFalling"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "5",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetX"
+          },
+          "parameters": [
+            "NewSprite4",
+            "Scale",
+            "=",
+            "Player.Health::Health()/30"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.X()",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.Y()",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -1263,14 +1882,6 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
-      "name": "ButtonFSM",
-      "type": "ButtonStates::ButtonFSM"
-    },
-    {
-      "name": "ButtonScaleTween",
-      "type": "ButtonStates::ButtonScaleTween"
-    },
-    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
@@ -1279,8 +1890,8 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
-      "name": "MultitouchButton",
-      "type": "SpriteMultitouchJoystick::MultitouchButton"
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Opacity",
@@ -1301,10 +1912,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Tween",
-      "type": "Tween::TweenBehavior"
     }
   ]
 }
