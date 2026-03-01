@@ -31,6 +31,11 @@
       "name": "direction",
       "type": "number",
       "value": 1
+    },
+    {
+      "name": "score",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -1317,11 +1322,79 @@
       "keepRatio": true,
       "layer": "",
       "name": "platform",
-      "persistentUuid": "5ac431c0-f134-4812-b57d-39bd73c5a3fb",
+      "persistentUuid": "9ad3602e-1b5f-4292-b456-c3064bc6abd3",
       "width": 205,
-      "x": 3665,
-      "y": -173,
+      "x": 3727,
+      "y": -4,
       "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "68f80de0-7856-4d69-b462-f9389911ece5",
+      "width": 205,
+      "x": 3785,
+      "y": -4,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 213,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "cce8c17b-16dc-4cd0-94a9-3c9063dd4d51",
+      "width": 205,
+      "x": 3844,
+      "y": -4,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 219,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite7",
+      "persistentUuid": "f4b81cd1-ba5f-4d18-b15c-16cff56e696a",
+      "width": 250,
+      "x": 3826,
+      "y": -88,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 117,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "72346ffa-a3cb-4271-b49d-a53d34e7b7b4",
+      "width": 216,
+      "x": 1096,
+      "y": 18,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1529,7 +1602,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
+                  "image": "NewSprite10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1545,20 +1618,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 7,
-                        "y": 9
+                        "x": 6,
+                        "y": 11
                       },
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 11
                       },
                       {
-                        "x": 24,
-                        "y": 19
+                        "x": 25,
+                        "y": 26
                       },
                       {
-                        "x": 7,
-                        "y": 19
+                        "x": 6,
+                        "y": 26
                       }
                     ]
                   ]
@@ -1950,6 +2023,110 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite7",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 10
+                      },
+                      {
+                        "x": 23,
+                        "y": 10
+                      },
+                      {
+                        "x": 23,
+                        "y": 24
+                      },
+                      {
+                        "x": 15,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Score: 0\n",
+      "font": "088dd9d7e751fe70af00d41cd19ea388f5955f643f16ad3371b9c7b6f37a8aa8_NotoSansKR-Black.otf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Score: 0\n",
+        "font": "088dd9d7e751fe70af00d41cd19ea388f5955f643f16ad3371b9c7b6f37a8aa8_NotoSansKR-Black.otf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1984,6 +2161,12 @@
       },
       {
         "objectName": "NewSprite6"
+      },
+      {
+        "objectName": "NewSprite7"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
@@ -2024,6 +2207,27 @@
             "",
             "80",
             "RandomFloatInRange(1,1.1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "score",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NewText",
+            "Text",
+            "=",
+            "\"Score: \"+score"
           ]
         }
       ]
@@ -2339,6 +2543,40 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "NewSprite7",
+            "Player",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Game Scene2\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -2498,6 +2736,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

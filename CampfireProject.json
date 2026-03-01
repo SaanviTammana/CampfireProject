@@ -259,6 +259,33 @@
         "name": "NewSprite8",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NotoSansKR-Black.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "088dd9d7e751fe70af00d41cd19ea388f5955f643f16ad3371b9c7b6f37a8aa8_NotoSansKR-Black.otf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Korean/088dd9d7e751fe70af00d41cd19ea388f5955f643f16ad3371b9c7b6f37a8aa8_NotoSansKR-Black.otf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -272,6 +299,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-scene2"
     }
   ],
   "externalEvents": [
