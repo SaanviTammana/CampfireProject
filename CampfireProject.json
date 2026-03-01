@@ -419,7 +419,7 @@
         "kind": "image",
         "metadata": "",
         "name": "istockphoto-1307986275-612x613.jpg",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -427,7 +427,7 @@
         "kind": "image",
         "metadata": "",
         "name": "istockphoto-1447471637-640x640.jpg",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
