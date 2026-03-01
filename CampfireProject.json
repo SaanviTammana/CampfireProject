@@ -429,6 +429,14 @@
         "name": "istockphoto-1447471637-640x640.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

@@ -3,11 +3,11 @@
   "disableInputWhenNotFocused": true,
   "mangledName": "Game_32Scene3",
   "name": "Game Scene3",
-  "r": 255,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 255,
+  "v": 115,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
