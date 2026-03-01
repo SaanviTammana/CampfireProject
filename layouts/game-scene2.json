@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.09792498292817726,
+    "zoomFactor": 0.4973284754043061,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -77,15 +77,233 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 105,
+      "height": 234,
       "keepRatio": true,
       "layer": "",
+      "name": "platform",
+      "persistentUuid": "d6b0d8dd-243e-4cfe-80a7-8f2ffffc226f",
+      "width": 264,
+      "x": 6,
+      "y": 318,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 234,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "4facef0a-a71b-4c8f-8158-1e8b2991bda0",
+      "width": 264,
+      "x": 165,
+      "y": 234,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 234,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "79953dca-069b-4cdf-925b-0423b1e794ad",
+      "width": 264,
+      "x": 359,
+      "y": 151,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 158,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "d5d30298-8d43-4340-832b-850278831b5d",
+      "width": 171,
+      "x": 591,
+      "y": 202,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 158,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "c52f38c1-2978-40a5-bca3-953f89be4523",
+      "width": 171,
+      "x": 832,
+      "y": 196,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "69d65187-dea4-4446-859b-fbf4b13e939a",
+      "width": 0,
+      "x": 1090,
+      "y": 18,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 234,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "c8af775a-59b8-4138-aa66-0735322eef9e",
+      "width": 264,
+      "x": 262,
+      "y": 228,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 234,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "fdd5f31c-b105-4809-8ba2-70687e912fc1",
+      "width": 264,
+      "x": 431,
+      "y": 152,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 234,
+      "keepRatio": true,
+      "layer": "",
+      "name": "platform",
+      "persistentUuid": "4d37df83-0103-4755-8dcb-fbb3821bd354",
+      "width": 264,
+      "x": 934,
+      "y": 571,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "NewSprite6",
+      "persistentUuid": "d4ff5a78-d39a-4ede-8b75-33d320c3a32a",
+      "width": 0,
+      "x": 922,
+      "y": 270,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "NewSprite6",
+      "persistentUuid": "8f7d661f-927b-4b2a-812f-9253266a08aa",
+      "width": 0,
+      "x": 922,
+      "y": 270,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 539,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "NewSprite6",
+      "persistentUuid": "8cfe7daf-888d-4419-a4b8-c0c2b998e175",
+      "width": 276,
+      "x": 938,
+      "y": 305,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 299,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "platform2",
+      "persistentUuid": "4c8f5790-304b-4ce1-a546-7ee4ee4754f1",
+      "width": 314,
+      "x": 1049,
+      "y": 539,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 129,
+      "keepRatio": true,
+      "layer": "Layer",
       "name": "oyster",
-      "persistentUuid": "7ad6f860-5d42-4412-afcc-4e929010fa2b",
-      "width": 95,
-      "x": -47.5,
-      "y": -52.5,
-      "zOrder": 9,
+      "persistentUuid": "b8f17104-8e26-45fb-a992-bbad250af0a8",
+      "width": 147,
+      "x": 604,
+      "y": 156,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -94,15 +312,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 61,
+      "height": 129,
       "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "a1dc070f-b852-4463-9bc8-428c6dae79a0",
-      "width": 69,
-      "x": -34.5,
-      "y": -30.5,
-      "zOrder": 10,
+      "layer": "Layer",
+      "name": "oyster",
+      "persistentUuid": "a4591a04-63d6-4198-9bf9-7843a0347f9f",
+      "width": 147,
+      "x": 729,
+      "y": 240,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -111,15 +329,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 61,
+      "height": 129,
       "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "64a39dca-7190-4801-b7e9-131d1ee0edc8",
-      "width": 69,
-      "x": -34.5,
-      "y": -30.5,
-      "zOrder": 10,
+      "layer": "Layer",
+      "name": "oyster",
+      "persistentUuid": "8bd8b796-743e-4902-a7b9-169df809bc61",
+      "width": 147,
+      "x": 854,
+      "y": 148,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -128,15 +346,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 61,
+      "height": 158,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "125fa356-05c7-49b5-9d80-0ecaf27c5d36",
-      "width": 69,
-      "x": -34.5,
-      "y": -30.5,
-      "zOrder": 10,
+      "name": "NewSprite5",
+      "persistentUuid": "9499e072-0fb8-4449-8345-fd825412354e",
+      "width": 171,
+      "x": 710,
+      "y": 286,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -145,15 +363,66 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 61,
+      "height": 129,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "oyster",
+      "persistentUuid": "47049c5d-ef12-4a0d-96b8-e786811187c6",
+      "width": 147,
+      "x": 1003,
+      "y": 215,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 129,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "oyster",
+      "persistentUuid": "bb59ffb0-2837-4516-9432-fff4e2ae4870",
+      "width": 147,
+      "x": 1009,
+      "y": 214,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 234,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "0e5b907f-7dcb-4f84-acf1-86f8a3cdbc8c",
-      "width": 69,
-      "x": -34.5,
-      "y": -30.5,
-      "zOrder": 10,
+      "name": "platform",
+      "persistentUuid": "e9fe2a86-6d35-41cf-9532-45178a522dd9",
+      "width": 264,
+      "x": 940,
+      "y": 224,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 129,
+      "keepRatio": true,
+      "layer": "Layer",
+      "name": "oyster",
+      "persistentUuid": "8bcaee8a-2ce3-4256-bad1-5f249cf70d59",
+      "width": 147,
+      "x": 1001,
+      "y": 560,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -843,6 +1112,92 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "platform2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 200,
+          "Height": 0,
+          "Clockwise": true,
+          "HorizontalEdgeDuration": 3,
+          "VerticalEdgeDuration": 0,
+          "Left": 1.00000000000091,
+          "Top": 1.00000000000091,
+          "Progress": 1.00000000000091,
+          "OldX": 1.00000000000091,
+          "OldY": 1.00000000000091,
+          "Easing": "easeInOutSine",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 12
+                      },
+                      {
+                        "x": 21,
+                        "y": 20
+                      },
+                      {
+                        "x": 12,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -856,6 +1211,9 @@
       },
       {
         "objectName": "platform"
+      },
+      {
+        "objectName": "platform2"
       },
       {
         "objectName": "NewSprite5"
@@ -884,6 +1242,67 @@
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "oyster",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "oyster",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "PickupCoin",
+            "",
+            "80",
+            "RandomFloatInRange(1,1.1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "score",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NewText",
+            "Text",
+            "=",
+            "\"Score: \"+score"
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -1269,7 +1688,7 @@
           },
           "parameters": [
             "",
-            "\"Untitled scene\"",
+            "\"game over\"",
             ""
           ]
         }
@@ -1432,12 +1851,20 @@
       "type": "PlatformBehavior::PlatformerObjectBehavior"
     },
     {
+      "name": "RectangleMovement",
+      "type": "RectangleMovement::RectangleMovement"
+    },
+    {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
     },
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

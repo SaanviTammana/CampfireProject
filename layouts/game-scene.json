@@ -36,6 +36,11 @@
       "name": "score",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "jumps",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -153,7 +158,7 @@
       "width": 94,
       "x": 103,
       "y": 283,
-      "zOrder": 8,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -315,14 +320,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 61,
+      "height": 75,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
       "persistentUuid": "4bc652d3-ae69-43d1-a5db-c09bf5f67a12",
-      "width": 69,
+      "width": 101,
       "x": 822,
-      "y": 353,
+      "y": 339,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -332,14 +337,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 75,
+      "height": 31,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite2",
       "persistentUuid": "19329ec5-316a-45e6-b84c-571081e39eee",
-      "width": 72,
-      "x": 636,
-      "y": 327,
+      "width": 35,
+      "x": 639,
+      "y": 376,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -349,14 +354,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 81,
+      "height": 32,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite3",
       "persistentUuid": "9e3155de-d338-4bdc-910e-8a49e9d76878",
-      "width": 88,
-      "x": 1005,
-      "y": 322,
+      "width": 31,
+      "x": 1041,
+      "y": 376,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -527,23 +532,6 @@
       "width": 95,
       "x": 1258,
       "y": 139,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 105,
-      "keepRatio": true,
-      "layer": "",
-      "name": "oyster",
-      "persistentUuid": "7ad6f860-5d42-4412-afcc-4e929010fa2b",
-      "width": 95,
-      "x": -47.5,
-      "y": -52.5,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -863,78 +851,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
-      "persistentUuid": "a1dc070f-b852-4463-9bc8-428c6dae79a0",
-      "width": 69,
-      "x": -34.5,
-      "y": -30.5,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 61,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "64a39dca-7190-4801-b7e9-131d1ee0edc8",
-      "width": 69,
-      "x": -34.5,
-      "y": -30.5,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 61,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "125fa356-05c7-49b5-9d80-0ecaf27c5d36",
-      "width": 69,
-      "x": -34.5,
-      "y": -30.5,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 61,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
       "persistentUuid": "09c1a91e-d28c-41cc-bbeb-80a5de4cd55d",
       "width": 69,
       "x": 2226,
       "y": 182,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 61,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "0e5b907f-7dcb-4f84-acf1-86f8a3cdbc8c",
-      "width": 69,
-      "x": -34.5,
-      "y": -30.5,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -1388,12 +1308,12 @@
       "depth": 1,
       "height": 117,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Layer",
       "name": "NewText",
       "persistentUuid": "72346ffa-a3cb-4271-b49d-a53d34e7b7b4",
       "width": 216,
-      "x": 1096,
-      "y": 18,
+      "x": 1070,
+      "y": 10,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -1643,7 +1563,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "NewSprite",
       "type": "Sprite",
@@ -1679,19 +1599,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 6,
                         "y": 8
                       },
                       {
-                        "x": 29,
+                        "x": 24.5,
                         "y": 8
                       },
                       {
-                        "x": 29,
-                        "y": 25
+                        "x": 24.5,
+                        "y": 25.5
                       },
                       {
-                        "x": 0,
+                        "x": 6.5,
                         "y": 25
                       }
                     ]
@@ -2084,49 +2004,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Score: 0\n",
-      "font": "088dd9d7e751fe70af00d41cd19ea388f5955f643f16ad3371b9c7b6f37a8aa8_NotoSansKR-Black.otf",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Score: 0\n",
-        "font": "088dd9d7e751fe70af00d41cd19ea388f5955f643f16ad3371b9c7b6f37a8aa8_NotoSansKR-Black.otf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 40,
-        "lineHeight": 0,
-        "color": "0;0;0"
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -2164,9 +2041,6 @@
       },
       {
         "objectName": "NewSprite7"
-      },
-      {
-        "objectName": "NewText"
       }
     ]
   },
@@ -2312,7 +2186,7 @@
           "parameters": [
             "NewSprite",
             "0",
-            "100",
+            "200",
             ""
           ]
         }
@@ -2340,7 +2214,7 @@
           "parameters": [
             "NewSprite",
             "180",
-            "100",
+            "200",
             ""
           ]
         }
@@ -2475,6 +2349,11 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
       "actions": [
         {
           "type": {
@@ -2557,6 +2436,16 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "score",
+            "=",
+            "12"
           ]
         }
       ],
